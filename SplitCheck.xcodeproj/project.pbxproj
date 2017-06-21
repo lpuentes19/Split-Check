@@ -7,33 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95FA16151EF9D145000100B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA16141EF9D145000100B2 /* AppDelegate.swift */; };
-		95FA161A1EF9D145000100B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FA16181EF9D145000100B2 /* Main.storyboard */; };
-		95FA161C1EF9D145000100B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FA161B1EF9D145000100B2 /* Assets.xcassets */; };
-		95FA161F1EF9D145000100B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FA161D1EF9D145000100B2 /* LaunchScreen.storyboard */; };
-		95FA16281EF9D1F8000100B2 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA16271EF9D1F8000100B2 /* LaunchScreenViewController.swift */; };
-		95FA162A1EF9D45F000100B2 /* MainCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA16291EF9D45F000100B2 /* MainCheckViewController.swift */; };
-		95FA162C1EF9D482000100B2 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA162B1EF9D482000100B2 /* TipViewController.swift */; };
-		95FA162E1EF9D5C2000100B2 /* MainCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA162D1EF9D5C2000100B2 /* MainCheck.swift */; };
-		95FA16301EF9D5CD000100B2 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA162F1EF9D5CD000100B2 /* Tip.swift */; };
-		95FA16331EF9D613000100B2 /* MainCheckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA16321EF9D613000100B2 /* MainCheckController.swift */; };
-		95FA16351EF9D645000100B2 /* TipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA16341EF9D645000100B2 /* TipController.swift */; };
+		95CDDF3F1EFACFF8004EB145 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95CDDF3E1EFACFF8004EB145 /* Info.plist */; };
+		95E815501EFAC4340088C60A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E815451EFAC4340088C60A /* AppDelegate.swift */; };
+		95E815511EFAC4340088C60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E815461EFAC4340088C60A /* Assets.xcassets */; };
+		95E815551EFAC4340088C60A /* MainCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8154A1EFAC4340088C60A /* MainCheck.swift */; };
+		95E815561EFAC4340088C60A /* MainCheckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8154B1EFAC4340088C60A /* MainCheckController.swift */; };
+		95E815571EFAC4340088C60A /* MainCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8154C1EFAC4340088C60A /* MainCheckViewController.swift */; };
+		95E815581EFAC4340088C60A /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8154D1EFAC4340088C60A /* Tip.swift */; };
+		95E815591EFAC4340088C60A /* TipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8154E1EFAC4340088C60A /* TipController.swift */; };
+		95E8155A1EFAC4340088C60A /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8154F1EFAC4340088C60A /* TipViewController.swift */; };
+		95E815601EFAC7050088C60A /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8155F1EFAC7050088C60A /* LaunchScreenViewController.swift */; };
+		95E815621EFACA3A0088C60A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E815611EFACA3A0088C60A /* Main.storyboard */; };
+		95E815641EFACA430088C60A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E815631EFACA430088C60A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95CDDF3E1EFACFF8004EB145 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/Info.plist"; sourceTree = "<absolute>"; };
+		95E815451EFAC4340088C60A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/AppDelegate.swift"; sourceTree = "<absolute>"; };
+		95E815461EFAC4340088C60A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/Assets.xcassets"; sourceTree = "<absolute>"; };
+		95E8154A1EFAC4340088C60A /* MainCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCheck.swift; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/MainCheck.swift"; sourceTree = "<absolute>"; };
+		95E8154B1EFAC4340088C60A /* MainCheckController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCheckController.swift; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/MainCheckController.swift"; sourceTree = "<absolute>"; };
+		95E8154C1EFAC4340088C60A /* MainCheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCheckViewController.swift; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/MainCheckViewController.swift"; sourceTree = "<absolute>"; };
+		95E8154D1EFAC4340088C60A /* Tip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tip.swift; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/Tip.swift"; sourceTree = "<absolute>"; };
+		95E8154E1EFAC4340088C60A /* TipController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipController.swift; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/TipController.swift"; sourceTree = "<absolute>"; };
+		95E8154F1EFAC4340088C60A /* TipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipViewController.swift; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/TipViewController.swift"; sourceTree = "<absolute>"; };
+		95E8155F1EFAC7050088C60A /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchScreenViewController.swift; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/LaunchScreenViewController.swift"; sourceTree = "<absolute>"; };
+		95E815611EFACA3A0088C60A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/Main.storyboard"; sourceTree = "<absolute>"; };
+		95E815631EFACA430088C60A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "/Users/luey/Desktop/Unit 6/SplitCheck/Split-Check/LaunchScreen.storyboard"; sourceTree = "<absolute>"; };
 		95FA16111EF9D145000100B2 /* SplitCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		95FA16141EF9D145000100B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95FA16191EF9D145000100B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		95FA161B1EF9D145000100B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		95FA161E1EF9D145000100B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		95FA16201EF9D145000100B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95FA16271EF9D1F8000100B2 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
-		95FA16291EF9D45F000100B2 /* MainCheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCheckViewController.swift; sourceTree = "<group>"; };
-		95FA162B1EF9D482000100B2 /* TipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
-		95FA162D1EF9D5C2000100B2 /* MainCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCheck.swift; sourceTree = "<group>"; };
-		95FA162F1EF9D5CD000100B2 /* Tip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
-		95FA16321EF9D613000100B2 /* MainCheckController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCheckController.swift; sourceTree = "<group>"; };
-		95FA16341EF9D645000100B2 /* TipController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,11 +48,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95E8155B1EFAC4FE0088C60A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95E8155F1EFAC7050088C60A /* LaunchScreenViewController.swift */,
+				95E8154C1EFAC4340088C60A /* MainCheckViewController.swift */,
+				95E8154F1EFAC4340088C60A /* TipViewController.swift */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		95E8155C1EFAC51D0088C60A /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95E8154B1EFAC4340088C60A /* MainCheckController.swift */,
+				95E8154E1EFAC4340088C60A /* TipController.swift */,
+			);
+			name = ModelControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		95E8155D1EFAC5500088C60A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95E8154A1EFAC4340088C60A /* MainCheck.swift */,
+				95E8154D1EFAC4340088C60A /* Tip.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		95E8155E1EFAC57E0088C60A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95E815451EFAC4340088C60A /* AppDelegate.swift */,
+				95E815461EFAC4340088C60A /* Assets.xcassets */,
+				95CDDF3E1EFACFF8004EB145 /* Info.plist */,
+				95E815611EFACA3A0088C60A /* Main.storyboard */,
+				95E815631EFACA430088C60A /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		95FA16081EF9D145000100B2 = {
 			isa = PBXGroup;
 			children = (
 				95FA16131EF9D145000100B2 /* SplitCheck */,
-				95FA16121EF9D145000100B2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,49 +105,19 @@
 				95FA16111EF9D145000100B2 /* SplitCheck.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		95FA16131EF9D145000100B2 /* SplitCheck */ = {
 			isa = PBXGroup;
 			children = (
-				95FA16181EF9D145000100B2 /* Main.storyboard */,
-				95FA16271EF9D1F8000100B2 /* LaunchScreenViewController.swift */,
-				95FA16291EF9D45F000100B2 /* MainCheckViewController.swift */,
-				95FA162B1EF9D482000100B2 /* TipViewController.swift */,
-				95FA16361EF9D64E000100B2 /* Model Controllers */,
-				95FA16311EF9D5D6000100B2 /* Models */,
-				95FA16261EF9D15B000100B2 /* Resources */,
+				95E8155B1EFAC4FE0088C60A /* ViewControllers */,
+				95E8155C1EFAC51D0088C60A /* ModelControllers */,
+				95E8155D1EFAC5500088C60A /* Models */,
+				95E8155E1EFAC57E0088C60A /* Resources */,
+				95FA16121EF9D145000100B2 /* Products */,
 			);
 			path = SplitCheck;
-			sourceTree = "<group>";
-		};
-		95FA16261EF9D15B000100B2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				95FA16141EF9D145000100B2 /* AppDelegate.swift */,
-				95FA161B1EF9D145000100B2 /* Assets.xcassets */,
-				95FA161D1EF9D145000100B2 /* LaunchScreen.storyboard */,
-				95FA16201EF9D145000100B2 /* Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		95FA16311EF9D5D6000100B2 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				95FA162D1EF9D5C2000100B2 /* MainCheck.swift */,
-				95FA162F1EF9D5CD000100B2 /* Tip.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		95FA16361EF9D64E000100B2 /* Model Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				95FA16341EF9D645000100B2 /* TipController.swift */,
-				95FA16321EF9D613000100B2 /* MainCheckController.swift */,
-			);
-			name = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,7 @@
 					95FA16101EF9D145000100B2 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = H9L7P6ZCN6;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,9 +181,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FA161F1EF9D145000100B2 /* LaunchScreen.storyboard in Resources */,
-				95FA161C1EF9D145000100B2 /* Assets.xcassets in Resources */,
-				95FA161A1EF9D145000100B2 /* Main.storyboard in Resources */,
+				95CDDF3F1EFACFF8004EB145 /* Info.plist in Resources */,
+				95E815511EFAC4340088C60A /* Assets.xcassets in Resources */,
+				95E815641EFACA430088C60A /* LaunchScreen.storyboard in Resources */,
+				95E815621EFACA3A0088C60A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,37 +195,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FA16281EF9D1F8000100B2 /* LaunchScreenViewController.swift in Sources */,
-				95FA16151EF9D145000100B2 /* AppDelegate.swift in Sources */,
-				95FA162E1EF9D5C2000100B2 /* MainCheck.swift in Sources */,
-				95FA16301EF9D5CD000100B2 /* Tip.swift in Sources */,
-				95FA16331EF9D613000100B2 /* MainCheckController.swift in Sources */,
-				95FA162C1EF9D482000100B2 /* TipViewController.swift in Sources */,
-				95FA162A1EF9D45F000100B2 /* MainCheckViewController.swift in Sources */,
-				95FA16351EF9D645000100B2 /* TipController.swift in Sources */,
+				95E815591EFAC4340088C60A /* TipController.swift in Sources */,
+				95E815551EFAC4340088C60A /* MainCheck.swift in Sources */,
+				95E815571EFAC4340088C60A /* MainCheckViewController.swift in Sources */,
+				95E815581EFAC4340088C60A /* Tip.swift in Sources */,
+				95E815501EFAC4340088C60A /* AppDelegate.swift in Sources */,
+				95E8155A1EFAC4340088C60A /* TipViewController.swift in Sources */,
+				95E815601EFAC7050088C60A /* LaunchScreenViewController.swift in Sources */,
+				95E815561EFAC4340088C60A /* MainCheckController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		95FA16181EF9D145000100B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95FA16191EF9D145000100B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		95FA161D1EF9D145000100B2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95FA161E1EF9D145000100B2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		95FA16211EF9D145000100B2 /* Debug */ = {
@@ -311,11 +308,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = H9L7P6ZCN6;
-				INFOPLIST_FILE = SplitCheck/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SplitCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -324,8 +323,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = H9L7P6ZCN6;
-				INFOPLIST_FILE = SplitCheck/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SplitCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +352,7 @@
 				95FA16251EF9D145000100B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

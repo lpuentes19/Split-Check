@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Screen View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LaunchScreenViewController" customModule="SplitCheck" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split Check" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Enj-6U-ODq">
+                                <rect key="frame" x="91" y="188" width="192" height="290"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Enj-6U-ODq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="168" id="Aha-LR-eby"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Enj-6U-ODq" secondAttribute="bottom" constant="189" id="NbH-Tp-Vvo"/>
+                            <constraint firstAttribute="trailing" secondItem="Enj-6U-ODq" secondAttribute="trailing" constant="92" id="lwf-4y-1eq"/>
+                            <constraint firstItem="Enj-6U-ODq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="91" id="sa4-eK-IEA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="Enj-6U-ODq" id="b1k-9P-PmF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+        <!--Tip-->
+        <scene sceneID="3fk-hL-3Ug">
+            <objects>
+                <viewController id="Qug-Dj-IS2" customClass="TipViewController" customModule="SplitCheck" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Zh-AL-9pV"/>
+                        <viewControllerLayoutGuide type="bottom" id="AJY-Zu-weZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CMl-zE-uYK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tip" image="icons8-Money-30" id="cG2-B0-sq0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D8P-2w-pSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1641" y="370"/>
+        </scene>
+        <!--Split Check-->
+        <scene sceneID="hHm-Wd-kTF">
+            <objects>
+                <viewController id="jan-nx-p6t" customClass="MainCheckViewController" customModule="SplitCheck" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iDY-M2-u0v"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Fe-GM-fjc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7IJ-En-jol">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Split Check" image="icons8-Hand Scissors-30" id="314-z5-7mN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dnK-RX-OdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1641" y="-284"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="nhh-kf-jcS">
+            <objects>
+                <tabBarController storyboardIdentifier="launchToMainCheckVC" id="dxQ-K8-M7u" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Jed-cG-r9w">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jan-nx-p6t" kind="relationship" relationship="viewControllers" id="w9M-LW-QKT"/>
+                        <segue destination="Qug-Dj-IS2" kind="relationship" relationship="viewControllers" id="49R-AP-kRQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fge-x7-vzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="777" y="37"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-Hand Scissors-30" width="30" height="30"/>
+        <image name="icons8-Money-30" width="30" height="30"/>
+    </resources>
+</document>
