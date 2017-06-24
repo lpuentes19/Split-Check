@@ -24,6 +24,7 @@ class LaunchScreenViewController: UIViewController {
         
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
         titleLabel.center.x = view.center.x // This places the label in the center x of the view
         titleLabel.center.x -= view.bounds.width // This places it on the left of the view with the width = to the bounds' width of the view
             

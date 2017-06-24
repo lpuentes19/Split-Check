@@ -56,10 +56,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="BVX-j7-DpY" appends="YES" id="cF7-1F-lYY"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Tip" image="icons8-Money-30" id="cG2-B0-sq0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D8P-2w-pSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="BVX-j7-DpY">
+                    <connections>
+                        <action selector="tapGesture:" destination="Qug-Dj-IS2" id="4Mu-Fy-c5g"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1641" y="370"/>
         </scene>
@@ -75,10 +84,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="LSg-gx-807" appends="YES" id="ok1-CX-5b5"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Split Check" image="icons8-Hand Scissors-30" id="314-z5-7mN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dnK-RX-OdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="LSg-gx-807">
+                    <connections>
+                        <action selector="tapGesture:" destination="jan-nx-p6t" id="TjH-d9-pvq"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1641" y="-284"/>
         </scene>

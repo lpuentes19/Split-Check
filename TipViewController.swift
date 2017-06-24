@@ -266,6 +266,7 @@ class TipViewController: UIViewController {
         lowerSplitEvenlyLabel.text = ""
     }
     
+
     @IBAction func tapGesture(_ sender: Any) {
         totalAmountTextField.resignFirstResponder()
         percentageTextField.resignFirstResponder()
